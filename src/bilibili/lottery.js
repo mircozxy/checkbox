@@ -9,7 +9,7 @@ const {promisify} = require('util');
 const axios = require('axios');
 const timeAsync = promisify(setTimeout);   
         let msg =""
-        let cookie = ";bili_jct=b209003cf8e7f18e7bff601c7a581152;author=wenmoux"//这里填cookie
+        let cookie = ";bili_jct=65f0890e8709d0ab6d54da1ab8189997;author=wenmoux"//这里填cookie
                 let crsf = cookie.match(/bili_jct=(.+)/)[1]
         let header = {
             headers: {
